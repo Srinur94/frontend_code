@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="Css/Application-Form.css">
+</head>
+<body>
+    <form action="">
+
+    <div class="background-color">
+        <h1 class="Application-heading">Application Form</h1>
+        <label for="name" class="Detail-name-settings">First Name:</label>
+        <input type="text" value="" placeholder="Firstname" class="name-box-padding filling-box-settings">
+
+        <label for="name" class="Detail-name-settings Last-name-heading">Last Name:</label>
+        <input type="text" value="" placeholder="Lastname" class="name-box-padding filling-box-settings"> <br><br>
+
+        <label for="DOB" class="Detail-name-settings">Date Of Birth:</label>
+        <input type="text" value="" placeholder="dd/mm/yyyy" class="name-box-padding dob-filling-box">
+
+        <label for="age" class="Detail-name-settings Age-heading">Age:</label>
+        <select name="Age" class="name-box-padding age-filling-box">
+            <option value="Day" >Age</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="35">30</option>
+            <option value="40">40</option>
+            <option value="45">45</option>
+            <option value="50">50</option>
+            <option value="55">60</option>
+         </select> <br><br>
+
+         <label for="gender" class="Detail-name-settings" >Gender:</label>
+         <select name="gender" class="name-box-padding gender-filling-box">
+            <option value="Gender">Male</option>
+            <option value="Gender">Female</option>
+         </select>
+
+         <label for="email" class="Detail-name-settings Email-heading">Email Address</label>
+         <input type="text" value="" placeholder="Enter your mail" class="name-box-padding email-filling-box"><br><br>
+
+         <label for="radio-buttons" class="Detail-name-settings">Positions Available:</label>
+         <input type="radio" name="Positions Available" value="Junior developer">Junior developer
+         <input type="radio" name="Positions Available" value="Junior developer">Mid-level developer
+         <input type="radio" name="Positions Available" value="Junior developer">Senior developer <br><br>
+
+         <label for="checkbox" class="Detail-name-settings">Programming Languages</label>
+         <input type="checkbox" name="Coding-Languages" value="Java">Java
+         <input type="checkbox" name="Coding-Languages" value="Java">Javacript
+         <input type="checkbox" name="Coding-Languages" value="Java">Python<br><br>
+
+         <label for="password" class="Detail-name-settings">Password:</label>
+         <input type="password" value="" placeholder="enter your password" size="20" minlength="10" maxlength="20" 
+            class="name-box-padding">
+         <label for="password" class="Detail-name-settings">Confirm Password:</label>
+         <input type="password" value="" placeholder="confirm your password" size="20" minlength="10" maxlength="20"
+           class="name-box-padding"><br><br>
+
+            <div class="btn-settings">
+         <label for="submit" class="Detail-name-settings"></label>
+         <input type="submit" value="Submit" >
+         <label for="reset" class="Detail-name-settings"></label>
+         <input type="reset" value="Reset" >
+           </div>
+        
+    </div>
+
+    </form>
+</body>
+</html>

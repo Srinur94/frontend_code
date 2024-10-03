@@ -1,0 +1,44 @@
+.background-color{
+    background-color:rgb(93, 160, 26) ;
+    margin-left: 30vh;
+    margin-right: 30vh;
+    height: 55vh;
+}
+.Application-heading{
+    padding-bottom: 30px;
+    text-align: center;   
+}
+.name-box-padding{
+    padding: 4px;
+    
+}
+.Detail-name-settings{
+    padding-left: 10px;
+}
+.filling-box-settings{
+    margin-left: 50px;
+}
+.Last-name-heading{
+    margin-left:30px ;
+}
+.dob-filling-box{
+    margin-left: 35px;
+}
+.Age-heading{
+    margin-left: 3.5vh;
+}
+.age-filling-box{
+    margin-left: 13vh;
+}
+.gender-filling-box{
+    margin-left: 10vh;
+}
+.Email-heading{
+    margin-left: 17vh;
+}
+.email-filling-box{
+    margin-left: 5vh;
+}
+.btn-settings{
+    text-align: center;
+}
