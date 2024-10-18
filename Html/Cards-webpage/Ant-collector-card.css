@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat; 
+    height: 100vh;                    
+}
+.full-card-container-bg{
+   height: 100vh;
+   margin-left: 30vh;
+   margin-right: 30vh;
+   background-image: linear-gradient(to bottom right, #cb8490 2%,#cb8490 , purple );
+   display: flex;
+   justify-content: center;
+}
+.card-container{
+    height: 80vh;
+    width: 50vh;
+    background-color: whitesmoke;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.top-container{
+    background-color: #054752;
+    height: 25vh;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.ant-img{
+    height: 23vh;
+    width: 40vh;
+    margin-left: 30px;
+}
+.person-logo{
+    background-color: white;
+    height: 18vh;
+    width:18vh;
+    margin-top: -40px;
+    border-radius: 50%;
+    margin-left: 15vh;
+}
+.hamberger-icon{
+    height: 30px;
+    width: 30px;
+    margin-left: 43vh;
+    margin-top: 25px;
+}
+.main-heading{
+    color: rgb(61, 58, 58);
+    font-family: "Sans-serif";
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    height: 0px;
+}
+.small-description{
+    color: rgb(142, 130, 130);
+    font-family: "Sans-serif";
+    text-align: center;
+    padding-top: 20px;
+    height: 0px;
+    padding-bottom: 0px;
+}
+.number-heading{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top:-20px;
+    color: #099ae2; 
+    height: 0px;
+    }
+.followers-description{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    color: rgb(142, 130, 130);
+}
+.following-para{
+    padding-right: 12px;
+}
+.Follow-button{
+    height: 50px;
+    width: 300px;
+    margin-left: 30px;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Fantasy";
+    border-radius: 30px;
+    border-width: 0px;
+}
+.below-description{
+    padding-left: 40px;
+    padding-right: 20px;
+    width: 290px;
+    font-size: 15px;
+}
+
+
