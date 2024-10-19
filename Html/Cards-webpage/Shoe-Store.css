@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    border-sizing :border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.card-container{
+    background-image: linear-gradient(to right, rgb(44, 2, 2), rgb(44, 2, 2), rgb(79, 26, 6), rgb(44, 2, 2));
+    height: 80vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    border-radius: 10px;
+    margin-left: 30vh;
+    margin-right: 30vh;
+}
+.nike-logo{
+    height: 50px;
+    width: 80px;
+}
+.nav-bar-settings{
+    margin-left: 280px;
+    font-size: 10px;
+}
+.search-logo{
+    height: 30px;
+    width: 35px;
+    margin-left: 350px;
+}
+.nike-heading{
+    color: whitesmoke;
+    font-size: 30px;
+}
+.model-name{
+    color: orange;
+    font-size: 25px;
+}
+h6{
+    color:whitesmoke ;
+    font-size: 15px;
+    padding-top: 20px;
+}
+.shoe-description{
+   color: whitesmoke; 
+   font-size: 15px;
+   width: 392px;
+}
+.shoe-img{
+    height: 400px;
+    width: 500px;
+    margin-left: 130px;
+    margin-top: 10px;
+    transform: rotate(15deg);
+}
+.shoe-price{
+    color: whitesmoke;
+    font-family: "sans-serif";
+    margin-top: -180px;
+}
+.pre-order-btn{
+    padding-top: -80px;
+    font-family: "sans-serif";
+    margin-top: -180px;
+    margin-left: 50px;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    background: linear-gradient(orange, orangered);
+    color: white;
+}
